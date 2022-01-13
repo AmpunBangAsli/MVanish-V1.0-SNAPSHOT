@@ -1,0 +1,19 @@
+leavemessage: '&7[&c-&7] &6%PLAYER% &6Left the game!'
+joinmessage: '&7[&a+&7] &6%PLAYER% &6Joined the game!'
+enablejoinandleavemessage: true
+player-get-invisiblepotion-when-vanish: true
+player-can-pickup-items: false
+global:
+  auto updater:
+    notify: true
+    download: false
+    delay: 43200
+  metrics: true
+  background compiler: true
+  debug: false
+  detailed error: false
+  script engine: JavaScript
+prefix: '&e&lMVanish &2/ &6'
+actionbar: '&7:-&e&lVANISHED&7-:'
+vanished:
+- AmpunBang_
