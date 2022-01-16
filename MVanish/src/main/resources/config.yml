@@ -1,0 +1,32 @@
+# Hook
+global:
+  auto updater:
+    notify: true
+    download: false
+    delay: 43200
+  metrics: true
+  background compiler: true
+  debug: false
+  detailed error: false
+  script engine: JavaScript
+
+# Change command prefix (Example: Yourserver / blabla.)
+prefix: '&e&lVANISH &2/ &6'
+
+# Actionbar when you vanish!
+actionbar: '&7> &e&lVANISHED&7 <'
+
+# If player vanish player can pickup item/not
+player-can-pickup-items: true
+
+# When vanish player get vanish(Not recommended, because if you vanish your friend can't see you!)
+player-get-invisiblepotion-when-vanish: false
+
+# Join message
+joinmessage: '&e %PLAYER% joined the game!'
+
+# Leave message
+leavemessage: '&e %PLAYER% left the game!'
+
+# Enable join/leave message
+enablejoinandleavemessage: false
